@@ -29,3 +29,15 @@ spec:
         importMode: Legacy
       referencePolicy:
         type: Source
+    - name: "1.1"
+      annotations:
+        opendatahub.io/notebook-python-dependencies: '[]'
+        opendatahub.io/notebook-software: '[]'
+        openshift.io/imported-from: 'quay.io/lcoronad/workbench-images:jupyter-datascience-ubi9-python-3.11-2024b_20250521'
+      from:
+        kind: DockerImage
+        name: 'quay.io/lcoronad/workbench-images:jupyter-datascience-ubi9-python-3.11-2024b_20250521'
+      importPolicy:
+        importMode: Legacy
+      referencePolicy:
+        type: Source
