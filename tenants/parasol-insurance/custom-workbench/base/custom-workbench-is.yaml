@@ -17,7 +17,7 @@ spec:
   lookupPolicy:
     local: true
   tags:
-    - name: "1.0"
+    - name: latest
       annotations:
         opendatahub.io/notebook-python-dependencies: '[]'
         opendatahub.io/notebook-software: '[]'
